@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A755D1A2D182CEC00EF52A3 /* LauncherApplication.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A755D082D18288B00EF52A3 /* LauncherApplication.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9A76825A2D4E777400FA8636 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7682592D4E777400FA8636 /* StoreKit.framework */; };
+		9AD72A382D747E1800523946 /* EnvironmentVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD72A352D7479F100523946 /* EnvironmentVars.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A73C23B2CE9DD64007277E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A73C2212CE9DD63007277E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A73C2282CE9DD63007277E9;
+			remoteInfo = Lilius;
+		};
+		9A73C2452CE9DD64007277E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A73C2212CE9DD63007277E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A73C2282CE9DD63007277E9;
+			remoteInfo = Lilius;
+		};
+		9A755D172D182CDA00EF52A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A73C2212CE9DD63007277E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A755D072D18288B00EF52A3;
+			remoteInfo = LauncherApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A755D192D182CDF00EF52A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				9A755D1A2D182CEC00EF52A3 /* LauncherApplication.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A73C2292CE9DD63007277E9 /* Lilius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lilius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A73C23A2CE9DD64007277E9 /* LiliusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiliusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A73C2442CE9DD64007277E9 /* LiliusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiliusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A755D082D18288B00EF52A3 /* LauncherApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LauncherApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7682592D4E777400FA8636 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9AD72A332D7479E000523946 /* DevConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevConfig.xcconfig; sourceTree = "<group>"; };
+		9AD72A352D7479F100523946 /* EnvironmentVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentVars.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9AD72A372D747D8600523946 /* Exceptions for "Lilius" folder in "Lilius" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9A73C2282CE9DD63007277E9 /* Lilius */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9A73C22B2CE9DD63007277E9 /* Lilius */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9AD72A372D747D8600523946 /* Exceptions for "Lilius" folder in "Lilius" target */,
+			);
+			path = Lilius;
+			sourceTree = "<group>";
+		};
+		9A73C23D2CE9DD64007277E9 /* LiliusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiliusTests;
+			sourceTree = "<group>";
+		};
+		9A73C2472CE9DD64007277E9 /* LiliusUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiliusUITests;
+			sourceTree = "<group>";
+		};
+		9A755D092D18288B00EF52A3 /* LauncherApplication */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LauncherApplication;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A73C2262CE9DD63007277E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A76825A2D4E777400FA8636 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A73C2372CE9DD64007277E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A73C2412CE9DD64007277E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A755D052D18288B00EF52A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A73C2202CE9DD63007277E9 = {
+			isa = PBXGroup;
+			children = (
+				9AD72A342D7479E000523946 /* Configs */,
+				9A73C22B2CE9DD63007277E9 /* Lilius */,
+				9A73C23D2CE9DD64007277E9 /* LiliusTests */,
+				9A73C2472CE9DD64007277E9 /* LiliusUITests */,
+				9A755D092D18288B00EF52A3 /* LauncherApplication */,
+				9A7682582D4E777400FA8636 /* Frameworks */,
+				9A73C22A2CE9DD63007277E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A73C22A2CE9DD63007277E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A73C2292CE9DD63007277E9 /* Lilius.app */,
+				9A73C23A2CE9DD64007277E9 /* LiliusTests.xctest */,
+				9A73C2442CE9DD64007277E9 /* LiliusUITests.xctest */,
+				9A755D082D18288B00EF52A3 /* LauncherApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A7682582D4E777400FA8636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A7682592D4E777400FA8636 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AD72A342D7479E000523946 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				9AD72A352D7479F100523946 /* EnvironmentVars.swift */,
+				9AD72A332D7479E000523946 /* DevConfig.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A73C2282CE9DD63007277E9 /* Lilius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A73C24E2CE9DD64007277E9 /* Build configuration list for PBXNativeTarget "Lilius" */;
+			buildPhases = (
+				9A73C2252CE9DD63007277E9 /* Sources */,
+				9A73C2262CE9DD63007277E9 /* Frameworks */,
+				9A73C2272CE9DD63007277E9 /* Resources */,
+				9A755D192D182CDF00EF52A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A755D182D182CDA00EF52A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9A73C22B2CE9DD63007277E9 /* Lilius */,
+			);
+			name = Lilius;
+			packageProductDependencies = (
+			);
+			productName = Lilius;
+			productReference = 9A73C2292CE9DD63007277E9 /* Lilius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A73C2392CE9DD64007277E9 /* LiliusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A73C2512CE9DD64007277E9 /* Build configuration list for PBXNativeTarget "LiliusTests" */;
+			buildPhases = (
+				9A73C2362CE9DD64007277E9 /* Sources */,
+				9A73C2372CE9DD64007277E9 /* Frameworks */,
+				9A73C2382CE9DD64007277E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A73C23C2CE9DD64007277E9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9A73C23D2CE9DD64007277E9 /* LiliusTests */,
+			);
+			name = LiliusTests;
+			packageProductDependencies = (
+			);
+			productName = LiliusTests;
+			productReference = 9A73C23A2CE9DD64007277E9 /* LiliusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A73C2432CE9DD64007277E9 /* LiliusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A73C2542CE9DD64007277E9 /* Build configuration list for PBXNativeTarget "LiliusUITests" */;
+			buildPhases = (
+				9A73C2402CE9DD64007277E9 /* Sources */,
+				9A73C2412CE9DD64007277E9 /* Frameworks */,
+				9A73C2422CE9DD64007277E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A73C2462CE9DD64007277E9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9A73C2472CE9DD64007277E9 /* LiliusUITests */,
+			);
+			name = LiliusUITests;
+			packageProductDependencies = (
+			);
+			productName = LiliusUITests;
+			productReference = 9A73C2442CE9DD64007277E9 /* LiliusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9A755D072D18288B00EF52A3 /* LauncherApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A755D142D18288C00EF52A3 /* Build configuration list for PBXNativeTarget "LauncherApplication" */;
+			buildPhases = (
+				9A755D042D18288B00EF52A3 /* Sources */,
+				9A755D052D18288B00EF52A3 /* Frameworks */,
+				9A755D062D18288B00EF52A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9A755D092D18288B00EF52A3 /* LauncherApplication */,
+			);
+			name = LauncherApplication;
+			packageProductDependencies = (
+			);
+			productName = LauncherApplication;
+			productReference = 9A755D082D18288B00EF52A3 /* LauncherApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A73C2212CE9DD63007277E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9A73C2282CE9DD63007277E9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9A73C2392CE9DD64007277E9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9A73C2282CE9DD63007277E9;
+					};
+					9A73C2432CE9DD64007277E9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9A73C2282CE9DD63007277E9;
+					};
+					9A755D072D18288B00EF52A3 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 9A73C2242CE9DD63007277E9 /* Build configuration list for PBXProject "Lilius" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A73C2202CE9DD63007277E9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9A73C22A2CE9DD63007277E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A73C2282CE9DD63007277E9 /* Lilius */,
+				9A73C2392CE9DD64007277E9 /* LiliusTests */,
+				9A73C2432CE9DD64007277E9 /* LiliusUITests */,
+				9A755D072D18288B00EF52A3 /* LauncherApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A73C2272CE9DD63007277E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A73C2382CE9DD64007277E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A73C2422CE9DD64007277E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A755D062D18288B00EF52A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A73C2252CE9DD63007277E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD72A382D747E1800523946 /* EnvironmentVars.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A73C2362CE9DD64007277E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A73C2402CE9DD64007277E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A755D042D18288B00EF52A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A73C23C2CE9DD64007277E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A73C2282CE9DD63007277E9 /* Lilius */;
+			targetProxy = 9A73C23B2CE9DD64007277E9 /* PBXContainerItemProxy */;
+		};
+		9A73C2462CE9DD64007277E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A73C2282CE9DD63007277E9 /* Lilius */;
+			targetProxy = 9A73C2452CE9DD64007277E9 /* PBXContainerItemProxy */;
+		};
+		9A755D182D182CDA00EF52A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A755D072D18288B00EF52A3 /* LauncherApplication */;
+			targetProxy = 9A755D172D182CDA00EF52A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A73C24C2CE9DD64007277E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A73C24D2CE9DD64007277E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9A73C24F2CE9DD64007277E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lilius/Lilius.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 26;
+				DEVELOPMENT_ASSET_PATHS = "\"Lilius/Preview Content\"";
+				DEVELOPMENT_TEAM = U854GDPLAE;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lilius/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "The app shows events from your system Calendar when you click on date&time in menu bar.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Reminders events required.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 2.13;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.overmorrow.lilius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9A73C2502CE9DD64007277E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lilius/Lilius.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 26;
+				DEVELOPMENT_ASSET_PATHS = "\"Lilius/Preview Content\"";
+				DEVELOPMENT_TEAM = U854GDPLAE;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lilius/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "The app shows events from your system Calendar when you click on date&time in menu bar.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Reminders events required.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 2.13;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.overmorrow.lilius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9A73C2522CE9DD64007277E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWW448CAK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.overmorrow.LiliusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lilius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lilius";
+			};
+			name = Debug;
+		};
+		9A73C2532CE9DD64007277E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWW448CAK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.overmorrow.LiliusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lilius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lilius";
+			};
+			name = Release;
+		};
+		9A73C2552CE9DD64007277E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWW448CAK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.overmorrow.LiliusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Lilius;
+			};
+			name = Debug;
+		};
+		9A73C2562CE9DD64007277E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWW448CAK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.overmorrow.LiliusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Lilius;
+			};
+			name = Release;
+		};
+		9A755D152D18288C00EF52A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LauncherApplication/LauncherApplication.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = U854GDPLAE;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 2.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.overmorrow.lilius.launcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9A755D162D18288C00EF52A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LauncherApplication/LauncherApplication.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = U854GDPLAE;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 2.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.overmorrow.lilius.launcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A73C2242CE9DD63007277E9 /* Build configuration list for PBXProject "Lilius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A73C24C2CE9DD64007277E9 /* Debug */,
+				9A73C24D2CE9DD64007277E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A73C24E2CE9DD64007277E9 /* Build configuration list for PBXNativeTarget "Lilius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A73C24F2CE9DD64007277E9 /* Debug */,
+				9A73C2502CE9DD64007277E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A73C2512CE9DD64007277E9 /* Build configuration list for PBXNativeTarget "LiliusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A73C2522CE9DD64007277E9 /* Debug */,
+				9A73C2532CE9DD64007277E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A73C2542CE9DD64007277E9 /* Build configuration list for PBXNativeTarget "LiliusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A73C2552CE9DD64007277E9 /* Debug */,
+				9A73C2562CE9DD64007277E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A755D142D18288C00EF52A3 /* Build configuration list for PBXNativeTarget "LauncherApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A755D152D18288C00EF52A3 /* Debug */,
+				9A755D162D18288C00EF52A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A73C2212CE9DD63007277E9 /* Project object */;
+}
