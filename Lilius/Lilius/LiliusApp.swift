@@ -24,7 +24,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusItem: NSStatusItem?
     var popover: NSPopover?
     
-    private var membershipManager = InAppPurchaseService.shared //start observer
+//    private var membershipManager = InAppPurchaseService.shared //start observer ,uncommented for in app purchase
     var timer: Timer?
     private var colors: [NSColor] = [.systemRed, .black]
     var currentIndex = 0

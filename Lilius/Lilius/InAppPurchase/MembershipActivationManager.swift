@@ -29,7 +29,7 @@ final class MembershipActivationManager: NSObject {
     
     private override init() {
         super.init()
-        self.refreshMembershipStatus()
+//        self.refreshMembershipStatus() //uncomment for Inapp purchase
     }
     
     var type: MembershipType {
@@ -100,12 +100,14 @@ final class MembershipActivationManager: NSObject {
     }
     
     var isPlanExpired : Bool {
+        return false //comment for Inapp purchase
         guard let expiry = expiry else { return true }
         return expiry < Date()
 //        return expiry.compare(Date()) == .orderedDescending
     }
     
     var isActivePaidUser: Bool {
+        return true //comment for Inapp purchase
         if type == .expired || type == .notSubcribed {
             return false
         }

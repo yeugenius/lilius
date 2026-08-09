@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PreferencesRootView: View {
     @State private var preferencePage = "General"
-     var colors = ["General", "Calendars", "Premium", "About"]
+     var colors = ["General", "Calendars", "About"]
 
     var body: some View {
         VStack {
@@ -25,8 +25,6 @@ struct PreferencesRootView: View {
                 PreferencesGeneralView()
             case "Calendars":
                 PreferencesCalendarList()
-            case "Premium":
-                PreferencesPremiumView()
             case "About":
                 PreferencesAboutView()
             default:
