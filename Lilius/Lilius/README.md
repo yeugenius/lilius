@@ -28,7 +28,8 @@
 
 ## Screenshots
 
-> *(Add screenshots or animated GIFs here to demonstrate the menu bar display, calendar drop-down, and agenda pane)*
+<img width="877" height="546" alt="Screenshot 2026-08-09 at 4 46 13 PM" src="https://github.com/user-attachments/assets/eb6d6ce5-4341-4c8e-b402-ad9bf485416b" />
+<img width="876" height="546" alt="Screenshot 2026-08-09 at 4 46 04 PM" src="https://github.com/user-attachments/assets/9850bc78-182a-4c25-ac6a-77d1687a8e43" />
 
 ---
 
